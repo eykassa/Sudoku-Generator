@@ -1,4 +1,4 @@
 #!/bin/bash
 make  
-./r < commands2 
+./r < commands 
 make clean

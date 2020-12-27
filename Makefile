@@ -1,5 +1,4 @@
 all:
-	cc -lrt -o c client.c
-	cc -lrt -o s run.c
+	cc run.c -lpthread -o r
 clean:
-	rm s c
+	rm r
